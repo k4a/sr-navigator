@@ -65,6 +65,7 @@ if ($_GET['edit']) // Editing the device | Редактирование агре
 			elseif ($_POST['model']=='SR-Box-1'){$modems='1,2,3,4,5,6,7,8';}
 			elseif ($_POST['model']=='SR-Organizer'){$modems='1-1,1-2,1-3,1-4,1-5,1-6,1-7,1-8,2-1,2-2,2-3,2-4,2-5,2-6,2-7,2-8';}
 			elseif ($_POST['model']=='SR-Board'){$modems='1,2,3,4,5,6,7,8';}
+			elseif ($_POST['model']=='SR-Organizer-Smart'){$modems='1';}
 
 			$d=array(
 			'row_begin'=>0,
